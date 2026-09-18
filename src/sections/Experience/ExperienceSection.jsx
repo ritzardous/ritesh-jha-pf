@@ -206,9 +206,9 @@ function Experience() {
       idBadge: 'DEV-AI1',
       internshipType: 'Full-time Summer Internship',
       desc: [
-        'Built real-time object detection models for ESP32-CAM, targeting industrial IoT factory automation.',
-        'Ported models to optimized C libraries and deployed via Smow platform/IDE for edge inference.',
-        'Engineered seamless edge-AI workflows by integrating inference engines directly into the IDE ecosystem.',
+        'Engineered on-device object detection deployment pipelines for ESP32-CAM boards, enabling local edge inference for industrial IoT automation without cloud dependency.',
+        'Applied post-training int8 quantization and memory optimizations on Edge Impulse models, compressing neural network footprints to fit tight microcontroller RAM/Flash constraints.',
+        'Ported trained architectures into optimized C/C++ inference libraries and deployed firmware to physical hardware using the Smow IDE platform for real-time defect verification.',
       ],
     },
     {
@@ -220,9 +220,10 @@ function Experience() {
       idBadge: 'DEV-TL1',
       internshipType: 'Part-time Internship',
       desc: [
-        'Led a team of 7 developers, delivering 3+ high-quality websites in a span of 2 months.',
-        'Conducted 8+ technical interviews for the development role, evaluating candidates’ skills and fit.',
-        'Architected scalable frontend infrastructures and enforced code quality standards through rigorous reviews.',
+        'Led a 7-developer engineering team delivering 3+ responsive client web applications in parallel within a 2-month delivery cycle using Next.js, React, and TypeScript.',
+        'Architected modular frontend standards and enforced strict Git workflows (PR reviews, linting, type-safety contracts) to ensure zero merge conflicts across parallel workstreams.',
+        'Implemented SSR/SSG rendering strategies and conducted on-page performance audits to optimize Core Web Vitals, reduce TTFB, and boost organic search discoverability.',
+        'Spearheaded technical hiring by conducting 8+ technical interviews, assessing architectural thinking, code quality, and problem-solving skills for incoming team members.',
       ],
     },
     {
@@ -234,9 +235,11 @@ function Experience() {
       idBadge: 'SEC-OPS',
       internshipType: 'Part-time Sem-long Internship',
       desc: [
-        'Engineered the DeepCytes OSINT Toolkit, a proprietary search engine accelerating cybercrime investigations.',
-        'Hardened security infrastructure and compliance frameworks for high-profile clients through targeted penetration testing.',
-        'Formulated comprehensive SOPs for high-stakes digital forensics, standardizing operational workflows across teams.',
+        'Developed the DeepCytes OSINT Toolkit using React, Flask, and Django, creating an investigator-facing search and aggregation engine indexing multi-source intelligence feeds.',
+        'Directed threat investigation units of up to 22 members, driving end-to-end intelligence gathering and forensic analysis across active cybercrime cases.',
+        'Conducted comprehensive digital security posture audits for a national school chain, identifying auth misconfigurations in parent/student portals, mobile token leaks, and exposed PII.',
+        'Investigated syndicates running financial pump-and-dump scams, de-anonymizing operators through cross-platform handle correlation, UPI payment trail tracing, and infrastructure fingerprinting.',
+        'Authored organizational Standard Operating Procedures (SOPs) for cyber investigations, standardizing digital evidence preservation and audit-ready reporting protocols across teams.',
       ],
     },
     {
@@ -248,9 +251,9 @@ function Experience() {
       idBadge: 'DEV-FE1',
       internshipType: 'Part-time Internship',
       desc: [
-        'Developed the official diverse-org platform, ensuring architectural alignment with strategic organizational goals.',
-        'Modeled scalable, multi-tenant frontend solutions, delivering tailored user experiences for diverse clients.',
-        'Implemented responsive, component-driven interfaces using React.js and Material-UI, optimizing rendering performance.',
+        'Translated Figma design specifications into pixel-perfect, responsive web interfaces using React.js and CSS component architectures.',
+        'Built reusable, modular UI components ensuring design system consistency, token alignment, and clean separation of concerns.',
+        'Optimized viewport layouts across mobile, tablet, and desktop breakpoints, ensuring seamless multi-device responsiveness and UX flow.',
       ],
     },
   ]
