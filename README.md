@@ -8,7 +8,7 @@ A modern, high-performance personal portfolio, research hub, and engineering sho
 
 ---
 
-## ⚡ Tech Stack
+##  Tech Stack
 
 - **Core Framework:** React 18.3.1
 - **Build System:** Vite 5.3.1
@@ -23,7 +23,7 @@ A modern, high-performance personal portfolio, research hub, and engineering sho
 
 ---
 
-## 🚀 Key Features
+##  Key Features
 
 - **Interactive 3D Experience Deck:**
   - Sticky stacked cards with real-time 3D cursor tilt physics.
@@ -58,7 +58,7 @@ A modern, high-performance personal portfolio, research hub, and engineering sho
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 ritesh-jha/
@@ -142,7 +142,7 @@ ritesh-jha/
 
 ---
 
-## 🛠️ Getting Started
+##  Getting Started
 
 ### Prerequisites
 - [Node.js](https://nodejs.org/) (v18 or higher recommended)
@@ -179,19 +179,19 @@ ritesh-jha/
 
 ---
 
-## 💡 Design Philosophy
+##  Design Philosophy
 
 This portfolio is built with a focus on **UX, performance, and authenticity**. It eschews superficial design theatrics that degrade frame rates, prioritizing fluid 60fps animations, accessible interaction states, and genuine engineering substance.
 
 ---
 
-## 📜 License
+##  License
 
 This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
-## ✍️ Personal Note
+##  Personal Note
 
 This is one of those projects that gives me both adrenaline and fulfillment as a developer. I'll continue evolving it as I explore new technologies and systems.
 
