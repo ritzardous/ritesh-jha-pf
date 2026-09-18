@@ -77,12 +77,18 @@
     aspect-ratio: 1;
     object-fit: cover;
     z-index: 1;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    /* Noir/Moody B&W by default on phone & desktop */
+    filter: grayscale(100%) contrast(1.2) brightness(0.9);
+    mix-blend-mode: luminosity;
+    transition: transform 0.4s ease-out, box-shadow 0.4s ease-out, filter 0.8s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .flipContainer:hover .hero {
     transform: scale(1.05);
     box-shadow: 0 0 30px 10px var(--hero-border-color);
+    /* Vibrant Pop State */
+    filter: grayscale(0%) contrast(1) brightness(1.05) saturate(1.1);
+    mix-blend-mode: normal;
 }
 
 .heroWrapper {
@@ -120,17 +126,6 @@
     .hero {
         max-width: 280px;
         width: 280px;
-        /* Noir/Moody B&W Start State */
-        filter: grayscale(100%) contrast(1.2) brightness(0.9);
-        transition: transform 0.4s ease-out, box-shadow 0.4s ease-out, filter 0.8s cubic-bezier(0.4, 0, 0.2, 1);
-        mix-blend-mode: luminosity;
-        /* Blends with bg for better integration */
-    }
-
-    .flipContainer:hover .hero {
-        /* Vibrant Pop State */
-        filter: grayscale(0%) contrast(1) brightness(1.05) saturate(1.1);
-        mix-blend-mode: normal;
     }
 
     .heroWrapper::before {
